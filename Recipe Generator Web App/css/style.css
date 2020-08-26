@@ -1,0 +1,41 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+#header {
+  min-height: 80vh;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/background-min.jpg") center/cover no-repeat;
+}
+a {
+  text-decoration: none !important;
+  color: #ec434d;
+}
+a:hover {
+  color: black !important;
+}
+.underline {
+  width: 20%;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #ec434d;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.bg-orange {
+  background-color: #ec434d;
+}
+.text-orange {
+  color: #ec434d;
+}
+a.nav-link {
+  color: white;
+}
+
+@media screen and (max-width: 425px) {
+  #meal-searched div a {
+    font-size: 0.9rem;
+  }
+}
